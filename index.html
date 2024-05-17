@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>html-missing-pieces</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <a href="#lang">HTML Lang</a><br><a href="#utf-8">UTF-8</a><br><a href="#meta">Meta</a><br><a href="#head">head</a>
+    <h1>just title and favicon are show in our html page : from head tag</h1>
+    <br /><br /><br />
+    <h2>DOCTYPE in HTML</h2>
+    <p>
+      A document type declaration, or DOCTYPE, is an instruction that associates
+      a particular XML or SGML document (for example, a web page) with a
+      document type definition (DTD) (for example, the formal definition of a
+      particular version of HTML 2.0 - 4.0).[1] In the serialized form of the
+      document, it manifests as a short string of markup that conforms to a
+      particular syntax. The HTML layout engines in modern web browsers perform
+      DOCTYPE "sniffing" or "switching", wherein the DOCTYPE in a document
+      served as text/html determines a layout mode, such as "quirks mode" or
+      "standards mode". The text/html serialization of HTML5, which is not
+      SGML-based, uses the DOCTYPE only for mode selection. Since web browsers
+      are implemented with special-purpose HTML parsers, rather than
+      general-purpose DTD-based parsers, they do not use DTDs and never access
+      them even if a URL is provided. The DOCTYPE is retained in HTML5 as a
+      "mostly useless, but required" header only to trigger "standards mode" in
+      common browsers.[2]
+    </p>
+    <h2 id="lang">HTML Lang</h2>
+    <p>
+      The lang global attribute helps define the language of an element: the
+      language that non-editable elements are written in, or the language that
+      the editable elements should be written in by the user. The attribute
+      contains a single "language tag" in the format defined in
+    </p>
+    <h2 id="head">Head Tag</h2>The  element is a container for metadata (data about data) and is placed between the  tag and the  tag. Metadata is data about the HTML document. Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+    <h2 id="meta">Meta tag in html</h2>
+    <p>The meta HTML element represents metadata that cannot be represented by other HTML meta-related elements, like base,link, script, style>or title.
+
+        The type of metadata provided by the meta element can be one of the following:
+        
+        If the name attribute is set, the meta element provides document-level metadata, applying to the whole page.
+        If the http-equiv attribute is set, the meta element is a pragma directive, providing information equivalent to what can be given by a similarly-named HTTP header.
+        If the charset attribute is set, the meta element is a charset declaration, giving the character encoding in which the document is encoded.
+        If the itemprop attribute is set, the meta element provides user-defined metadata.</p>
+        <br><br>
+        <h2 id="utf-8">UTF-8</h2><p>
+            In English
+            UTF-8 is backwards compatible with ASCII and the preferred encoding for e-mail and web pages. A variable-length character encoding. UTF-16 is used in all major operating systems like Windows, IOS, and Unix. The first 128 characters of UTF-8 have the same binary values as ASCII, making ASCII text valid UTF-8.</p>
+  </body>
 </html>
